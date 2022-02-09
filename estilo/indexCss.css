@@ -16,6 +16,9 @@ hr {
 ul.menuLateralTab  li a{
     font-weight:bold;
     color:white;
+    display: flex;
+    justify-content: flex-start;
+    
 }
 .navbar{
     margin-bottom: 50px;
@@ -52,4 +55,56 @@ tbody{
     border-radius: 10px;
 }
 
+.clientes::before{
+    content: "";
+    background-image: url("./imgs/user\ \(1\).png");
+    background-size: 26px;
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+}
 
+.categorias::before{
+    content: "";
+    background-image: url("./imgs/categories.png");
+    background-size: 26px;
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+}
+
+.produtos::before{
+    content: "";
+    background-image: url("./imgs/produto.png");
+    background-size: 26px;
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+}
+
+.fornecedores::before{
+    content: "";
+    background-image: url("./imgs/fornecedor.png");
+    background-size: 26px;
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+}
+
+.pedidos::before{
+    content: "";
+    background-image: url("./imgs/pedido.png");
+    background-size: 26px;
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+}
+
+.marcas::before{
+    content: "";
+    background-image: url("./imgs/etiqueta.png");
+    background-size: 26px;
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+}
