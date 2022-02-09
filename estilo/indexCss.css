@@ -3,10 +3,13 @@
     padding: 0;
     max-width: 100%;
 }
+
+
 .navLateral{
     margin-top:10px;
     background-color:#E6889A;
     border-radius:8px;
+    justify-content: center;
 }
 hr {
    color:rgb(255, 255, 255) !important;
@@ -17,6 +20,13 @@ ul.menuLateralTab  li a{
     font-weight:bold;
     color:white;
 }
+
+ul.menuLateralTab :hover {
+    color: rgb(179, 179, 179);
+    font-size: 17px;
+}
+
+
 .navbar{
     margin-bottom: 50px;
     background-color:#E6889A;
@@ -35,7 +45,7 @@ ul.menuLateralTab  li a{
 }
 
 table{
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(255, 251, 251);
     Color: rgb(0, 0, 0);
 
 }
@@ -51,5 +61,35 @@ tbody{
     border: 3px solid rgb(226 222 222);
     border-radius: 10px;
 }
+
+select{
+    width: 250px;
+    height: 38px;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+
+}
+
+.btnSalvar {
+    margin: 10px 0px 10px 420px;
+}
+
+@media (min-width: 990px) {
+    .navHamb{
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .navLateral{
+        display: none;
+    }
+
+    .conteudo{
+        margin-left: 24px;
+    }
+   
+}
+
 
 
