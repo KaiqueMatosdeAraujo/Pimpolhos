@@ -24,22 +24,22 @@
                         </li>
                         <hr>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Clientes</a>
+                            <a class="nav-link clientes " aria-current="page" href="#">Clientes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Categorias</a>
+                            <a class="nav-link categorias" href="#">Categorias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Produtos</a>
+                            <a class="nav-link produtos" href="#">Produtos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Fornecedores</a>
+                            <a class="nav-link fornecedores" href="#">Fornecedores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pedidos</a>
+                            <a class="nav-link pedidos" href="#">Pedidos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Marcas</a>
+                            <a class="nav-link marcas" href="#">Marcas</a>
                         </li>
                     </ul>
                 </div>
@@ -55,23 +55,23 @@
                     <a class="nav-link" aria-current="page" href="#">Meu perfil</a>
                 </li>
                 <hr>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Clientes</a>
+                <li class="nav-item ">
+                    <a class="nav-link clientes" aria-current="page" href="#">Clientes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Categorias</a>
+                    <a class="nav-link categorias" href="#">Categorias</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Produtos</a>
+                    <a class="nav-link produtos" href="#">Produtos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Fornecedores</a>
+                    <a class="nav-link fornecedores" href="#">Fornecedores</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pedidos</a>
+                    <a class="nav-link pedidos" href="#">Pedidos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Marcas</a>
+                    <a class="nav-link marcas" href="#">Marcas</a>
                 </li>
             </ul>
         </div>
@@ -79,7 +79,7 @@
 
 
 
-        <div class="col-9 conteudo">
+        <div class="col-md-12 col-lg-9 conteudo">
             <form action="ServletCRUD" method="post">
 
 
@@ -112,8 +112,8 @@
                                 <label for="exampleInput" class="form-label">Sexo</label><br>
                                 <select name="" id="">
                                     <option >Selecione ...</option>
-                                    <option value="masculino">Masculino</option>
-                                    <option value="feminino">Feminico</option>
+                                    <option value="menino">Menino</option>
+                                    <option value="menina">Menina</option>
                                 </select>
                             </div>
 
@@ -122,9 +122,27 @@
                                 <input class="form-control" type="text" name="pais" />
                             </div>
 
-                            <div class="mb-3">
+                            <div class="col-6">
                                 <label for="exampleInput" class="form-label">Material</label>
                                 <input class="form-control" type="text" name="pais" />
+                            </div>
+
+                            <div class="col-3" class="select">
+                                <label for="exampleInput" class="form-label">Categoria</label><br>
+                                <select name="" id="">
+                                    <option >Selecione ...</option>
+                                    <option value="categoria_menino">Menino</option>
+                                    <option value="categoria_menina">Menina</option>
+                                    <option value="categoria_acessorios">Acessórios</option>
+                                </select>
+                            </div>
+
+                            <div class="col-3" class="select">
+                                <label for="exampleInput" class="form-label">Fornecedor</label><br>
+                                <select name="" id="">
+                                    <option >Selecione ...</option>
+                                    <option value="dollbaby">dollbaby</option>
+                                </select>
                             </div>
 
                             <div class="mb-3">
@@ -137,7 +155,12 @@
                                 <input class="form-control" type="text" name="pais" />
                             </div>
 
-
+                            <label for="exampleInput" class="form-label">Imagem</label>
+                            <div class="input-group mb-3">
+                                
+                                <input type="file" class="form-control" id="inputGroupFile02">
+                            </div>
+                              
 
                             <button class="btn btn-secondary col-2 btnSalvar" type="submit" name="option" value="insert">Salvar
                             </button>

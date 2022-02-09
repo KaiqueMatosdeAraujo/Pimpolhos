@@ -85,22 +85,7 @@ select{
     margin: 10px 0px 10px 420px;
 }
 
-@media (min-width: 990px) {
-    .navHamb{
-        display: none;
-    }
-}
 
-@media (max-width: 991px) {
-    .navLateral{
-        display: none;
-    }
-
-    .conteudo{
-        margin-left: 24px;
-    }
-   
-}
 
 
 .clientes::before{
@@ -163,4 +148,22 @@ select{
     height: 30px;
     width: 30px;
     background-repeat: no-repeat;
+}
+
+
+@media (min-width: 990px) {
+    .navHamb{
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .navLateral{
+        display: none;
+    }
+
+    .conteudo{
+        margin-left: 24px;
+    }
+   
 }
