@@ -11,11 +11,11 @@
     border-radius:8px;
     justify-content: center;
 }
+
 hr {
    color:rgb(255, 255, 255) !important;
-
-   
 }
+
 ul.menuLateralTab  li a{
     font-weight:bold;
     color:white;
@@ -27,22 +27,33 @@ ul.menuLateralTab  li a{
 ul.menuLateralTab :hover {
     color: rgb(179, 179, 179);
     font-size: 17px;
+    text-align: center;
 }
 
+
+
+.menuLateralTab li a:hover{
+    color: rgb(99, 99, 99);
+}
+
+ul .menuLateralTab  li a:visited{
+    color: white;
+}
 
 .navbar{
     margin-bottom: 50px;
     background-color:#E6889A;
-  
-  
 }
+
 .navbar-light a.navbar-brand{
     color:#ffffff;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
+
 .navbar-light a.navbar-brand:hover{
     color:#ffffff;
 }
+
 .navbar-light a.navbar-brand:visited{
     color:#ffffff;
 }
@@ -50,14 +61,11 @@ ul.menuLateralTab :hover {
 table{
     background-color: rgb(255, 251, 251);
     Color: rgb(0, 0, 0);
-
 }
 
 tbody{
     background-color: rgb(226, 226, 226);
 }
-
-
 
 .conteudo{
     background-color: rgb(255 255 255);
@@ -138,6 +146,14 @@ select{
     height: 30px;
     width: 30px;
     background-repeat: no-repeat;
+}
+
+.title-marca{
+    margin-bottom: 3rem;
+}
+
+.input-marca{
+    margin-bottom: 40px;
 }
 
 .marcas::before{
