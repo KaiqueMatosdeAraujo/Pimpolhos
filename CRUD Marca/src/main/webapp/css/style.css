@@ -8,6 +8,14 @@ td{
     background-color: white !important;
 }
 
+.btnAcoes button{
+	background-color: transparent; 
+	margin-left: 10px;
+	border: none;
+	text-decoration: underline;
+	margin-left: 25px;
+}
+
 .navLateral{
     margin-top:10px;
     background-color:#E6889A;
@@ -140,8 +148,9 @@ select{
     margin-bottom: 3rem;
 }
 
-.input-marca{
+.input-marca input{
     margin-bottom: 40px;
+    width: 200px;
 }
 
 .marcas::before{
@@ -153,6 +162,9 @@ select{
     background-repeat: no-repeat;
 }
 
+.container input {
+	width: 100%;
+}
 
 @media (min-width: 990px) {
     .navHamb{
